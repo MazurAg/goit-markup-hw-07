@@ -1,0 +1,16 @@
+@use './utils/vars' as *;
+@import './utils/globals';
+@import './components/header';
+@import './components/logo';
+@import './components/hero';
+@import './components/products';
+@import './components/work';
+@import './components/team';
+@import './components/media';
+@import './components/clients';
+@import './components/footer';
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}

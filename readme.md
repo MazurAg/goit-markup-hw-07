@@ -1,1 +1,1 @@
- https://mazurag.github.io/goit-markup-hw-06/
+ https://mazurag.github.io/goit-markup-hw-07/

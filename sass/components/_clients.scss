@@ -1,0 +1,38 @@
+.clients {
+    &__title {
+        letter-spacing: 0.03em;
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+
+    &__item {
+        width: 170px;
+        height: 92px;
+    }
+
+    &__icon {
+        width: 170px;
+        height: 92px;
+        padding: 16px 32px;
+        border: 1px solid #afb1b8;
+        fill: #afb1b8;
+        cursor: pointer;
+        border-radius: 4px;
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:is(:hover, focus) {
+            border-color: $colorActive;
+        }
+        &:is(:hover, focus) {
+            fill: $colorActive;
+        }
+    }
+}

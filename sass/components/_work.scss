@@ -1,0 +1,39 @@
+.work {
+    &__title {
+        text-align: center;
+        padding-bottom: 50px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.166;
+        letter-spacing: 0.03em;
+        color: $textColorBut;
+    }
+
+    &__card {
+        display: flex;
+        gap: 30px;
+    }
+
+    &__card-item {
+        position: relative;
+        display: inline-flex;
+    }
+
+    &__card-description {
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.143;
+        font-size: 14px;
+        position: absolute;
+        background: rgba(47, 48, 58, 0.8);
+        left: 0;
+        right: 0;
+        color: #ffffff;
+        bottom: 0;
+        text-align: center;
+        padding-top: 27px;
+        padding-bottom: 27px;
+    }
+}

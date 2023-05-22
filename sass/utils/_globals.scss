@@ -1,0 +1,25 @@
+body {
+    color: $textColorBut;
+    font-family: $fontfamily;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+
+    display: block;
+}
+ul {
+    list-style: none;
+}
+/*.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}*/
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
